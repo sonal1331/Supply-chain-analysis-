@@ -1,0 +1,31 @@
+We want to generate some interesting insights from ship movement data using AI/ML algorithms.
+We have historical ship logbook data for a century - from 1750-1850 - opened and digitized by EU. Have a look at reference links.
+
+Some basic insights we can derive are:
+
+1. What are most used routes across the globe? 
+
+    - Season wise
+
+    - Country wise
+
+    - Year wise
+
+
+2. How many times 2 ships came closer to each other and breached distance separation?
+
+    - Can we gather stats on such breaches countrywise, year-wise etc.? What algorithm we should use for finding proximity given a geo-fence value?
+
+    - Can we predict pirate/evil ships from this stat?
+
+3. If we use this as training set, can we predict probability of pirate attacks on some routes?
+
+4. Can we found any other anomaly or outliers like ships not taking preferred route etc.
+
+The canvas is wide open here. So feel free to come up with ideas on what else we can do with this data.
+Keep in mind that our customer will be merchant navy and government security agencies. So the insights should be meaningful for them.
+
+Reference links:
+http://webs.ucm.es/info/cliwoc/
+http://webs.ucm.es/info/cliwoc/content/CLIWOC15all.htm
+https://www.kaggle.com/cwiloc/climate-data-from-ocean-ships
